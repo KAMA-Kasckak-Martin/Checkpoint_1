@@ -1,0 +1,16 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  max-width: 600px;
+}
+
+header {
+  background-color: hsl(268, 58%, 55%);
+  width: 24.438rem;
+  height: 5.938rem;
+}
+
+h1 {
+  color: white;
+}
