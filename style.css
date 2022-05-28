@@ -103,7 +103,141 @@ svg {
   position: relative;
 }
 
-.down {
+.arrow {
+  border: 2px solid hsla(268, 58%, 55%, 1);
+  width: 2rem;
+  height: 2.25rem;
   position: absolute;
-  transform: translate();
+  background-color: hsla(268, 58%, 55%, 1);
+  transform: translate(182px, -37px);
+}
+
+.bi-bi-chevron-compact-down {
+  position: absolute;
+  transform: translate(5px, 8px);
+}
+
+.arrow2 {
+  border: 2px solid hsla(268, 58%, 55%, 1);
+  width: 2rem;
+  height: 2.25rem;
+  position: absolute;
+  transform: translate(330px, -37px);
+  background-color: hsla(268, 58%, 55%, 1);
+}
+
+.bi-bi-chevron-compact-down_1 {
+  position: absolute;
+  transform: translate(5px, 8px);
+}
+
+.full_time {
+  font-family: var(--font_monserat);
+  font-weight: 600;
+  margin-left: 2rem;
+  margin-top: 3rem;
+}
+
+.container {
+  display: grid;
+  align-content: center;
+  grid-template-rows: 5.5rem;
+}
+
+a {
+  font-size: 0.7rem;
+  text-decoration: none;
+}
+
+.basti {
+  border: 2px solid var(--border_color);
+  width: 20rem;
+  height: 4rem;
+  margin-left: 2rem;
+  padding-left: 5rem;
+  font-family: "Source Sans Pro", sans-serif;
+  color: hsla(268, 75%, 44%, 1);
+  font-weight: 600;
+  position: relative;
+  background-image: url(/maiclass/basti.jpg);
+  background-size: 39px 39px;
+  background-repeat: no-repeat;
+  background-position: 20px 10px;
+  padding-top: 0.5rem;
+  box-shadow: 3px 5px;
+}
+
+.martin {
+  border: 2px solid var(--border_color);
+  width: 20rem;
+  height: 4rem;
+  margin-left: 2rem;
+  padding-left: 5rem;
+  font-family: "Source Sans Pro", sans-serif;
+  color: hsla(268, 75%, 44%, 1);
+  font-weight: 600;
+  position: relative;
+  background-image: url(/maiclass/martin.jpg);
+  background-size: 39px 39px;
+  background-repeat: no-repeat;
+  background-position: 20px 10px;
+  padding-top: 0.5rem;
+  box-shadow: 3px 5px;
+}
+
+.mark {
+  border: 2px solid var(--border_color);
+  width: 20rem;
+  height: 4rem;
+  margin-left: 2rem;
+  padding-left: 5rem;
+  font-family: "Source Sans Pro", sans-serif;
+  color: hsla(268, 75%, 44%, 1);
+  font-weight: 600;
+  position: relative;
+  background-image: url(/maiclass/mark.png);
+  background-size: 39px 39px;
+  background-repeat: no-repeat;
+  background-position: 20px 10px;
+  padding-top: 0.5rem;
+  box-shadow: 3px 5px;
+  margin-top: 1.5rem;
+}
+
+.daniel {
+  border: 2px solid var(--border_color);
+  width: 20rem;
+  height: 4rem;
+  margin-left: 2rem;
+  padding-left: 5rem;
+  font-family: "Source Sans Pro", sans-serif;
+  color: hsla(268, 75%, 44%, 1);
+  font-weight: 600;
+  position: relative;
+  background-image: url(/maiclass/daniel.jpg);
+  background-size: 39px 39px;
+  background-repeat: no-repeat;
+  background-position: 20px 10px;
+  padding-top: 0.5rem;
+  box-shadow: 3px 5px;
+  margin-top: 1.5rem;
+}
+
+.julia {
+  border: 2px solid var(--border_color);
+  width: 20rem;
+  height: 4rem;
+  margin-left: 2rem;
+  padding-left: 5rem;
+  font-family: "Source Sans Pro", sans-serif;
+  color: hsla(268, 75%, 44%, 1);
+  font-weight: 600;
+  position: relative;
+  background-image: url(/maiclass/julia.png);
+  background-size: 39px 39px;
+  background-repeat: no-repeat;
+  background-position: 20px 10px;
+  padding-top: 0.5rem;
+  box-shadow: 3px 5px;
+  margin-top: 1.5rem;
 }
