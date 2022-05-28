@@ -62,6 +62,12 @@ h3 {
   text-align: start;
   color: var(--border_color);
   font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.bi-bi-search {
+  position: absolute;
+  transform: translate(-30px, 9px);
 }
 
 svg {
