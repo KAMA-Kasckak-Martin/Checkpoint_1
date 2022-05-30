@@ -93,14 +93,6 @@ svg {
   margin-bottom: 0px;
 }
 
-.box_1 {
-  width: 31px;
-  height: 36px;
-  background-color: var(--border_color);
-  position: absolute;
-  transform: translate(182px, -38px);
-}
-
 #time {
   display: block;
   border: 2px solid var(--border_color);
