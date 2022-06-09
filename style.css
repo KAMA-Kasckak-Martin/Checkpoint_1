@@ -16,10 +16,11 @@ body {
 
 header {
   background-color: hsl(268, 58%, 55%);
-  width: 24.438rem;
-  height: 5.938rem;
+  width: 100%;
+  height: 6rem;
   position: relative;
   margin-bottom: 3rem;
+  padding: 0;
 }
 
 .menu {
@@ -44,17 +45,15 @@ h2 {
   margin-left: 2rem;
   margin-bottom: 0rem;
 }
-
-h3 {
-  color: hsla(0, 0%, 0%, 0.6);
-  font-family: var(--font_monserat);
+.your {
   margin-left: 2rem;
-  margin-top: 0rem;
+  font-family: var(--font_monserat);
+  font-weight: 600;
 }
 
 .search {
   border: 2px solid var(--border_color);
-  width: 20.5rem;
+  width: 89%;
   height: 2rem;
   padding-left: 1rem;
   margin-left: 2rem;
@@ -65,48 +64,40 @@ h3 {
   margin-bottom: 1rem;
 }
 
-.bi-bi-search {
-  position: absolute;
-  transform: translate(-30px, 9px);
+.jou {
+  display: flex;
 }
 
-svg {
-  transform: translate(330px, -40px);
-  opacity: 1.5;
-  color: var(--border_color);
+.bi-bi-search {
+  position: relative;
+  transform: translate(-33px, 8px);
 }
 
 #class {
   margin-top: 0rem;
-  display: block;
   border: 2px solid var(--border_color);
-  width: 11.375rem;
-  height: 2.375rem;
+  width: 60%;
   text-align: center;
-  margin-right: 0.813rem;
-  padding-top: 0rem;
-  margin-left: 2rem;
   font-family: "Source Sans Pro", sans-serif;
   color: hsla(268, 75%, 44%, 1);
-  font-size: 0.875rem;
   font-weight: 600;
-  margin-bottom: 0px;
 }
 
 #time {
-  display: block;
   border: 2px solid var(--border_color);
-  width: 8.188rem;
-  height: 2.375rem;
-  padding-top: 0rem;
+  width: 40%;
+  padding-block: 0.5rem;
   text-align: center;
   font-family: "Source Sans Pro", sans-serif;
   color: hsla(268, 75%, 44%, 1);
   font-size: 0.875rem;
   font-weight: 600;
-  margin-top: 0rem;
-  position: relative;
-  transform: translate(230px, -38px);
+}
+
+.boxes {
+  display: flex;
+  margin: 2rem;
+  gap: 1rem;
 }
 
 .full_time {
@@ -120,6 +111,7 @@ svg {
   display: grid;
   align-content: center;
   grid-template-rows: 5.5rem;
+  gap: 2rem;
 }
 
 a {
@@ -127,95 +119,26 @@ a {
   text-decoration: none;
 }
 
-.basti {
-  border: 2px solid var(--border_color);
-  width: 20rem;
-  height: 4rem;
+.person {
+  display: flex;
+  width: 89%;
+  border: 3px solid hsla(268, 75%, 44%, 1);
+  padding: 1rem;
+  box-shadow: 5px 5px 0px hsla(268, 75%, 44%, 1);
   margin-left: 2rem;
-  padding-left: 5rem;
-  font-family: "Source Sans Pro", sans-serif;
-  color: hsla(268, 75%, 44%, 1);
-  font-weight: 600;
-  position: relative;
-  background-image: url(/maiclass/basti.jpg);
-  background-size: 39px 39px;
-  background-repeat: no-repeat;
-  background-position: 20px 10px;
-  padding-top: 0.5rem;
-  box-shadow: 3px 5px;
 }
 
-.martin {
-  border: 2px solid var(--border_color);
-  width: 20rem;
-  height: 4rem;
-  margin-left: 2rem;
-  padding-left: 5rem;
-  font-family: "Source Sans Pro", sans-serif;
+.od {
+  padding-left: 2rem;
+  font-size: 1.5rem;
   color: hsla(268, 75%, 44%, 1);
-  font-weight: 600;
-  position: relative;
-  background-image: url(/maiclass/martin.jpg);
-  background-size: 39px 39px;
-  background-repeat: no-repeat;
-  background-position: 20px 10px;
-  padding-top: 0.5rem;
-  box-shadow: 3px 5px;
 }
 
-.mark {
-  border: 2px solid var(--border_color);
-  width: 20rem;
-  height: 4rem;
-  margin-left: 2rem;
-  padding-left: 5rem;
-  font-family: "Source Sans Pro", sans-serif;
-  color: hsla(268, 75%, 44%, 1);
-  font-weight: 600;
-  position: relative;
-  background-image: url(/maiclass/mark.png);
-  background-size: 39px 39px;
-  background-repeat: no-repeat;
-  background-position: 20px 10px;
-  padding-top: 0.5rem;
-  box-shadow: 3px 5px;
-  margin-top: 1.5rem;
+.numero {
+  width: 50px;
+  height: 50px;
 }
 
-.daniel {
-  border: 2px solid var(--border_color);
-  width: 20rem;
-  height: 4rem;
-  margin-left: 2rem;
-  padding-left: 5rem;
-  font-family: "Source Sans Pro", sans-serif;
-  color: hsla(268, 75%, 44%, 1);
-  font-weight: 600;
-  position: relative;
-  background-image: url(/maiclass/daniel.jpg);
-  background-size: 39px 39px;
-  background-repeat: no-repeat;
-  background-position: 20px 10px;
-  padding-top: 0.5rem;
-  box-shadow: 3px 5px;
-  margin-top: 1.5rem;
-}
-
-.julia {
-  border: 2px solid var(--border_color);
-  width: 20rem;
-  height: 4rem;
-  margin-left: 2rem;
-  padding-left: 5rem;
-  font-family: "Source Sans Pro", sans-serif;
-  color: hsla(268, 75%, 44%, 1);
-  font-weight: 600;
-  position: relative;
-  background-image: url(/maiclass/julia.png);
-  background-size: 39px 39px;
-  background-repeat: no-repeat;
-  background-position: 20px 10px;
-  padding-top: 0.5rem;
-  box-shadow: 3px 5px;
-  margin-top: 1.5rem;
+img {
+  width: 100%;
 }
