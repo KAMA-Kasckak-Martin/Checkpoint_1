@@ -1,0 +1,221 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  --colorh2: hsla(268, 75%, 44%, 1);
+  --font_monserat: "Montserrat", sans-serif;
+  --border_color: hsla(268, 75%, 44%, 1);
+}
+
+body {
+  max-width: 600px;
+  width: 100%;
+  margin: auto;
+}
+
+header {
+  background-color: hsl(268, 58%, 55%);
+  width: 24.438rem;
+  height: 5.938rem;
+  position: relative;
+  margin-bottom: 3rem;
+}
+
+.menu {
+  color: rgb(255, 255, 255);
+  position: absolute;
+  transform: translate(-300px, 7px);
+}
+
+h1 {
+  color: white;
+  font-size: 1rem;
+  font-family: var(--font_monserat);
+  padding-left: 6.5rem;
+  padding-top: 2.5rem;
+  font-weight: 600;
+}
+
+h2 {
+  color: var(--colorh2);
+  font-size: 1.125rem;
+  font-family: var(--font_monserat);
+  margin-left: 2rem;
+  margin-bottom: 0rem;
+}
+
+h3 {
+  color: hsla(0, 0%, 0%, 0.6);
+  font-family: var(--font_monserat);
+  margin-left: 2rem;
+  margin-top: 0rem;
+}
+
+.search {
+  border: 2px solid var(--border_color);
+  width: 20.5rem;
+  height: 2rem;
+  padding-left: 1rem;
+  margin-left: 2rem;
+  font-family: "Source Sans Pro", sans-serif;
+  text-align: start;
+  color: var(--border_color);
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.bi-bi-search {
+  position: absolute;
+  transform: translate(-30px, 9px);
+}
+
+svg {
+  transform: translate(330px, -40px);
+  opacity: 1.5;
+  color: var(--border_color);
+}
+
+#class {
+  margin-top: 0rem;
+  display: block;
+  border: 2px solid var(--border_color);
+  width: 11.375rem;
+  height: 2.375rem;
+  text-align: center;
+  margin-right: 0.813rem;
+  padding-top: 0rem;
+  margin-left: 2rem;
+  font-family: "Source Sans Pro", sans-serif;
+  color: hsla(268, 75%, 44%, 1);
+  font-size: 0.875rem;
+  font-weight: 600;
+  margin-bottom: 0px;
+}
+
+#time {
+  display: block;
+  border: 2px solid var(--border_color);
+  width: 8.188rem;
+  height: 2.375rem;
+  padding-top: 0rem;
+  text-align: center;
+  font-family: "Source Sans Pro", sans-serif;
+  color: hsla(268, 75%, 44%, 1);
+  font-size: 0.875rem;
+  font-weight: 600;
+  margin-top: 0rem;
+  position: relative;
+  transform: translate(230px, -38px);
+}
+
+.full_time {
+  font-family: var(--font_monserat);
+  font-weight: 600;
+  margin-left: 2rem;
+  margin-top: 3rem;
+}
+
+.container {
+  display: grid;
+  align-content: center;
+  grid-template-rows: 5.5rem;
+}
+
+a {
+  font-size: 0.7rem;
+  text-decoration: none;
+}
+
+.basti {
+  border: 2px solid var(--border_color);
+  width: 20rem;
+  height: 4rem;
+  margin-left: 2rem;
+  padding-left: 5rem;
+  font-family: "Source Sans Pro", sans-serif;
+  color: hsla(268, 75%, 44%, 1);
+  font-weight: 600;
+  position: relative;
+  background-image: url(/maiclass/basti.jpg);
+  background-size: 39px 39px;
+  background-repeat: no-repeat;
+  background-position: 20px 10px;
+  padding-top: 0.5rem;
+  box-shadow: 3px 5px;
+}
+
+.martin {
+  border: 2px solid var(--border_color);
+  width: 20rem;
+  height: 4rem;
+  margin-left: 2rem;
+  padding-left: 5rem;
+  font-family: "Source Sans Pro", sans-serif;
+  color: hsla(268, 75%, 44%, 1);
+  font-weight: 600;
+  position: relative;
+  background-image: url(/maiclass/martin.jpg);
+  background-size: 39px 39px;
+  background-repeat: no-repeat;
+  background-position: 20px 10px;
+  padding-top: 0.5rem;
+  box-shadow: 3px 5px;
+}
+
+.mark {
+  border: 2px solid var(--border_color);
+  width: 20rem;
+  height: 4rem;
+  margin-left: 2rem;
+  padding-left: 5rem;
+  font-family: "Source Sans Pro", sans-serif;
+  color: hsla(268, 75%, 44%, 1);
+  font-weight: 600;
+  position: relative;
+  background-image: url(/maiclass/mark.png);
+  background-size: 39px 39px;
+  background-repeat: no-repeat;
+  background-position: 20px 10px;
+  padding-top: 0.5rem;
+  box-shadow: 3px 5px;
+  margin-top: 1.5rem;
+}
+
+.daniel {
+  border: 2px solid var(--border_color);
+  width: 20rem;
+  height: 4rem;
+  margin-left: 2rem;
+  padding-left: 5rem;
+  font-family: "Source Sans Pro", sans-serif;
+  color: hsla(268, 75%, 44%, 1);
+  font-weight: 600;
+  position: relative;
+  background-image: url(/maiclass/daniel.jpg);
+  background-size: 39px 39px;
+  background-repeat: no-repeat;
+  background-position: 20px 10px;
+  padding-top: 0.5rem;
+  box-shadow: 3px 5px;
+  margin-top: 1.5rem;
+}
+
+.julia {
+  border: 2px solid var(--border_color);
+  width: 20rem;
+  height: 4rem;
+  margin-left: 2rem;
+  padding-left: 5rem;
+  font-family: "Source Sans Pro", sans-serif;
+  color: hsla(268, 75%, 44%, 1);
+  font-weight: 600;
+  position: relative;
+  background-image: url(/maiclass/julia.png);
+  background-size: 39px 39px;
+  background-repeat: no-repeat;
+  background-position: 20px 10px;
+  padding-top: 0.5rem;
+  box-shadow: 3px 5px;
+  margin-top: 1.5rem;
+}
